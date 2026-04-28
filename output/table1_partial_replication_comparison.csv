@@ -1,0 +1,8 @@
+step,original_target,our_run,notes
+Total # of firms (CIK) shown in CapitalIQ database from 2013-2022 calendar year,12614.0,12614,Exact match from transcript-details raw data
+Exclude firms that lack industry information and firms in finance and public utility industry (GIC classification code: 40 & 55),-6988.0,-6988,Exact match from TranscriptDetails + CRSP gind mapping
+Firms remaining after industry screen,5626.0,5626,Exact match
+Clean1 firms represented in accessible transcript-text JSON subset,,141,Only 141 screened firms appear in the uploaded transcript-text subset
+Firms with at least 5 question exchanges in accessible JSON subset,5557.0,133,Not comparable to paper because only partial transcript-text coverage is available
+Q&A pairs after code-as-written length filters (char thresholds) in accessible JSON subset,166848.0,101072,Generated from raw JSON using the Stata logic translated to Python
+Q&A pairs after word thresholds as documented in table text,166848.0,73296,Sensitivity check using word counts instead of character counts

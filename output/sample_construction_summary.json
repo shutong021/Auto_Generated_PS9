@@ -1,0 +1,16 @@
+{
+  "starting_firms_transcript_details": 12614,
+  "firms_after_industry_screen": 5626,
+  "available_json_files": 5956,
+  "available_json_files_linked_to_clean1_firms": 5953,
+  "linked_clean1_firms_in_json_subset": 141,
+  "transcripts_with_at_least_5_questions": 5375,
+  "firms_with_at_least_5_questions": 133,
+  "qna_pairs_after_char_filter": 101072,
+  "firms_after_char_filter": 133,
+  "transcripts_after_char_filter": 5374,
+  "qna_pairs_after_word_filter": 73296,
+  "firms_after_word_filter": 133,
+  "transcripts_after_word_filter": 5361,
+  "ambiguous_companyid_date_groups_with_multiple_clean_cik": 425
+}

@@ -1,0 +1,38 @@
+script,returncode,stdout_tail,stderr_tail
+Gow et al 2021.py,1,,"Traceback (most recent call last):
+  File ""/mnt/data/ps7_repo_skeleton/code_original/Gow et al 2021.py"", line 12, in <module>
+    from ling_features import non_answers, get_regexes_df
+ModuleNotFoundError: No module named 'ling_features'
+"
+Spark Pro(or Max).py,1,"==========================================================================================
+[START] Loading Excel
+","      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File ""/opt/pyvenv/lib/python3.13/site-packages/pandas/io/excel/_openpyxl.py"", line 553, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        filepath_or_buffer,
+        ^^^^^^^^^^^^^^^^^^^
+        storage_options=storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        engine_kwargs=engine_kwargs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File ""/opt/pyvenv/lib/python3.13/site-packages/pandas/io/excel/_base.py"", line 563, in __init__
+    self.handles = get_handle(
+                   ~~~~~~~~~~^
+        filepath_or_buffer, ""rb"", storage_options=storage_options, is_text=False
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File ""/opt/pyvenv/lib/python3.13/site-packages/pandas/io/common.py"", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\2025_26 Spring\\Replication\\Q&A_with_nonanswer.xlsx'
+"
+Keyword+Spark Max.py,1,,"Traceback (most recent call last):
+  File ""/mnt/data/ps7_repo_skeleton/code_original/Keyword+Spark Max.py"", line 17, in <module>
+    import kw_logic
+ModuleNotFoundError: No module named 'kw_logic'
+"
