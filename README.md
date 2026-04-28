@@ -4,11 +4,10 @@ This repository contains the materials needed to reproduce the **partial raw-dat
 
 ## What is in this repo
 
-- `code_original/`: the original scripts supplied in the local replication package.
 - `scripts/`: Python scripts that translate the deterministic sample-construction workflow into a runnable form.
 - `output/`: generated outputs from the actual execution, including the partial Table 1 comparison and a 1,000-row Q&A sample.
 - `notes/`: execution log, data inventory, and replication-results summary.
-- `data_raw/`: placeholder folders showing where proprietary raw data should be placed locally.
+
 
 ## Recommended directory structure
 
@@ -16,39 +15,12 @@ This repository contains the materials needed to reproduce the **partial raw-dat
 ps7_dekok_replication/
 ├── README.md
 ├── requirements.txt
-├── code_original/
 ├── scripts/
 ├── output/
 ├── notes/
-└── data_raw/
-    ├── transcript_details/
-    ├── capital_iq_text/
-    ├── crsp/
-    └── speaker_detail/
 ```
 
 ## What to put in each folder
-
-### `code_original/`
-Put the original shared scripts here exactly as received:
-- `sample construction code.do`
-- `Gow et al 2021.py`
-- `Spark Pro(or Max).py`
-- `Keyword+Spark Max.py`
-
-### `data_raw/transcript_details/`
-Place the extracted Stata file from `Transcript details.zip` here:
-- `kocfei0jhqc8raya.dta`
-
-### `data_raw/crsp/`
-Place the extracted Stata file from `CRSP.zip` here:
-- `zbbfx668dr8a8hhd.dta`
-
-### `data_raw/capital_iq_text/`
-Place the zip file `Capital IQ transcript text.zip` here, or extract its JSON contents here and adjust the script path if needed.
-
-### `data_raw/speaker_detail/`
-Leave empty unless speaker-level data become available later.
 
 ### `scripts/`
 Use these scripts to reproduce the deterministic part of the workflow:
